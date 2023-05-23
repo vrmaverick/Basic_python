@@ -12,3 +12,24 @@ print(20%6)
 #-- MATH functions
 print (round(3.23674,2)) # round off to 2 decimal places
 print (abs(-20)) #non -ve
+
+
+
+print (bin(8))
+print (hex(445))
+print (int('0x1bd',16))
+print (int('0b1111',2))
+
+
+
+
+s=10
+print(s)
+s+=2
+print(s)
+s-=2
+print(s)
+s*=2
+print(s)
+s/=2
+print(s)
