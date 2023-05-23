@@ -1,0 +1,7 @@
+print(2/4)
+print(type(2/4))
+print(type("char")) #type of command
+print('int')
+print(9.9+1.1) # FLoat values
+print(5//4) # round of to integer
+print(20%6)
