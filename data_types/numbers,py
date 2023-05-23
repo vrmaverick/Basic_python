@@ -5,3 +5,10 @@ print('int')
 print(9.9+1.1) # FLoat values
 print(5//4) # round of to integer
 print(20%6)
+
+
+
+
+#-- MATH functions
+print (round(3.23674,2)) # round off to 2 decimal places
+print (abs(-20)) #non -ve
