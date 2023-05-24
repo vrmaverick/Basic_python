@@ -38,3 +38,12 @@ print(s[3:9:2])
 print(s[::2])
 print(s[::-1])
 print(s[-2:-9:-2])
+
+
+qoute = 'Honesty is best policy'
+print(len(qoute))
+print(qoute.capitalize())
+print(qoute.upper())
+print(qoute.find('be'))
+print(qoute.replace('is ','not a '))
+print(qoute) #immutable 
