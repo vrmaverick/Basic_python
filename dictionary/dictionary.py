@@ -18,3 +18,28 @@ marks ={
 print(marks['vedant'])
 marks['vedant']=100
 print(marks['vedant'])
+
+# ..............................................................................................................
+m_li = [
+    {
+        'a':[1,2,3],
+        'b': True,
+        'c':"STring"
+    },
+     {
+        'a': [4,5,6],
+        'b':True,
+        'c':"STring"
+    }
+]
+print(m_li[1]['a'][2])
+
+d={
+        '10': [4,5,6],
+        10:True,
+        True:"STring"
+    }
+print(d['10'])
+print(d[10])
+print(d[True])
+
