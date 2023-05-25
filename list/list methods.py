@@ -43,3 +43,17 @@ a.remove(100) #returns nothing
 print("100 is removed : ")
 print(a)
 
+x=str(a)
+s = ' '
+n =s.join(x) #joins  list using any string and returns new string .........only works on strings
+print(n)
+print (x)
+# ....................................string unpacking
+p,q,r,*other,z,y = [26,12,2003,56,79,69,88,100]
+print(p)
+print(q)
+print(r)
+print(other) #remaining list
+print(z)
+print(y)
+
