@@ -1,18 +1,12 @@
-v = set()#set can also be declared this way
-print(type(v))
-#adding values inside set
-v.add(26)
-v.add(12)
-v.add(2003)
-v.add(26)#will not add repeated elements
-v.add("maverick")
-v.add(("tupple","can be added","but","not","list and dictionaries"))
-print(v)
-print(len(v))#prints length of sets
-# v.remove(5)#removes 5 from set v it will throw error if not present
-v.remove(2003)
-print("now set is :",v)
-print("............................................................")
-p = v.pop()
-print("popped element is ",p," popped from: ",v)
-# v.clear() clears the whole set
+my_list=[1,2,3,4,5,5,5,6,6,7,4,3,6,4,]
+my_set=set(my_list)
+new_set={100,99,98,97,96,6,7,4,2,5,6}
+print(my_set.intersection(new_set))
+print(my_set.isdisjoint(new_set))
+print(my_set|new_set)
+print(my_set.difference(new_set))
+print(my_set) #not modified
+print(my_set.difference_update(new_set))#none
+print(my_set)
+print(my_set.discard(5)) #none
+print(my_set)
