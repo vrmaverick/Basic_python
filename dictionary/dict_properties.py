@@ -28,6 +28,22 @@ print(myDict)
 print(myDict.get("collection"))#will return none if collection is not found in dictionary
 # print(myDict["collection"])#will throw error if collection is not found as a key
 
+d={
+        '10': [4,5,6],
+        10:True,
+        True:"STring"
+    }
+print ("STring" in d)#...false by defualt checks only keys
+print ("10" in d.keys())
+print ("STring" in d.values())
+
+# d2=d
+# d.clear()
+# print(d2) #empty
+
+d3=d.copy()
+d.clear()
+print(d3)
 
 
 
