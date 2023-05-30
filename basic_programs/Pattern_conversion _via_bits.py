@@ -8,8 +8,8 @@ picture = [
 ]
 for i in picture:
     print('\n')
-    for j in i:
-        if j==0:
+    for pixels in i:
+        if pixels==0:
             print(" ",end='\t')
-        elif j==1:
+        elif pixels==1:
             print("*",end='\t')
