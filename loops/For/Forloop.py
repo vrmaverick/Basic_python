@@ -21,3 +21,8 @@ for i in user.items():
     key,value = i
     print(i)
     print(key,value)
+    
+    #reverse printing of list
+    for _ in range(10,2,-1):
+    print(_)
+    print(list(range(5)))
