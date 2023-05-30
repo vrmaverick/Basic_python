@@ -25,3 +25,14 @@ new2 = amazon[:]#we assign a diffrent copy
 new2[0]='Heater'
 print(amazon)
 print(new2)
+
+
+a = [1,2,3]
+b = a.copy()
+c = a
+print (b)
+print(a == b)#same values
+print(a is b)#diffrent memory locations
+print (c)
+print(a==c)#same values
+print(a is c) #same memory location and value
