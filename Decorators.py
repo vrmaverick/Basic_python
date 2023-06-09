@@ -26,3 +26,18 @@ def my_decorator(func):
 def bye():
     print("Bye!!!!")
 
+def my_decorator(func):
+    def func_wrap(*args, **kargs):
+        print('^'*10)  # extra wrapping
+        func(*args, **kargs)  # original function called
+        print('v'*10)
+    return func_wrap
+
+
+# decorator called always decorators must be defined above .....a= my_decorator(hello)...a()
+@my_decorator
+def bye(param, emoji=':('):
+    print(param, emoji)
+
+
+bye(param="maverick")
