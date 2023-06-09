@@ -1,17 +1,19 @@
 from time import time
+
+
 def performance(func):
-    def wrap(*args, **kargs):
+    def wrap():
         t1 = time()
         func()
         t2 = time()
         print(f'Time taken = {t2-t1} ms')
-        return wrap
+    return wrap
 
 
 @performance
-def ti():
-    for i in range(0, 10000000):
+def long():
+    for i in range(0, 1000000000000000000000000000000000000):
         i*5
 
 
-a = ti()
+long()
